@@ -1,12 +1,34 @@
 @charset "utf-8";
-.img-responsive {
+.background {
+	background-color: #247CE6;
+}
+.img-responsive{
+	border-width: 20%;
+	border-color: #0D57BA;
+}
+#Aquarium, #PetShop, #Classes {
 	margin-left: auto;
-	margin-right: auto;
 }
-.row{
-	padding-top: 10px;
-	padding-bottom: 10px;
+#Aquarium, #logo, #AboutUs{
+	margin-top: 10px;
 }
-.col-md-12 {
-	padding-bottom: 10px;
+#AboutUs, #Catalog{
+	margin-left: -15px;
+	margin-right:auto;
+}
+#logo {
+	margin-left: auto;
+	margin-right:auto;
+}
+#Catalog {
+	margin-top: 10px;
+}
+#PetShop, #logo, #Catalog{
+	margin-bottom: 10px;
+}
+#Classes{
+	margin-bottom: 10px;
+}
+.item{
+	max-height: 220px;
 }
