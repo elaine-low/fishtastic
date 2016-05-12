@@ -1,0 +1,12 @@
+@charset "utf-8";
+.img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+}
+.row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.col-md-12 {
+	padding-bottom: 10px;
+}
