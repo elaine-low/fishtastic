@@ -1,0 +1,26 @@
+@charset "utf-8";
+.background {
+	background-color: #247CE6;
+}
+.navbar {
+	background-color: #EEF6FE;
+}
+.navbar-form{
+	margin-right: 5px;
+}
+.nav-tabs {
+	background-color: #B9DAFA;
+}
+.dropdown-menu {
+	background-color: #60B2FC;
+}
+.well {
+	margin-top: 20px;
+}
+.footer {
+	text-align: center;
+	background-color: #474444;
+	color: #FFFFFF;
+	margin-left: -20px;
+	margin-right: -20px;
+}
