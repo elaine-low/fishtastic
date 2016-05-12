@@ -5,6 +5,9 @@
 .navbar {
 	background-color: #EEF6FE;
 }
+.navbar-form{
+	margin-right: 5px;
+}
 .nav-tabs {
 	background-color: #B9DAFA;
 }
