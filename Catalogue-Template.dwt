@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Content-Template.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Fishtastic</title>
+	<!-- InstanceEndEditable -->
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/template-styles.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  <!-- InstanceEndEditable -->
+  </head>
+  <body class="background" style="padding-top: 70px">
+	<div class="wrapper">
+	  <div class="container-fluid"> </div>
+	  <nav class="navbar navbar-default navbar-fixed-top">
+	    <div class="container-fluid">
+	      <!-- Brand and toggle get grouped for better mobile display -->
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	        <!-- InstanceBeginEditable name="Brand" --><a class="navbar-brand" href="#">Fish-Tastic</a><!-- InstanceEndEditable --></div>
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	      <div class="collapse navbar-collapse" id="topFixedNavbar1">
+	        <ul class="nav navbar-nav navbar-right">
+	          <form class="navbar-form navbar-right" role="search">
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Search">
+                </div>
+	            <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+	          <li><a href="#">Catalogue</a></li>
+	          <li><a href="#">Cart</a></li>
+	          <li><a href="home.html#contact-us">Contact Us</a></li>
+            </ul>
+          </div>
+	      <!-- /.navbar-collapse -->
+        </div>
+	    <!-- /.container-fluid -->
+      </nav>
+	  <ul class="nav nav-tabs">
+	    <li><a href="home.html#announcements">Announcements</a></li>
+	    <li><a href="home.html#about-us">About Us</a></li>
+	    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Animals<b class="caret"></b></a>
+	      <ul class="dropdown-menu">
+	        <li><a href="#">Aquarium</a></li>
+	        <li><a href="#">Pet Shop</a></li>
+          </ul>
+        </li>
+	    <li><a href="#">Classes</a></li>
+	    <li><a href="#">Catalogue</a></li>
+	    <li><a href="home.html#contact-us">Contact Us</a></li>
+      </ul>
+	  <!-- InstanceBeginEditable name="Content" -->
+	  <section id="content">
+      	<div class="container-fluid catalogue">
+       	  <div class="row">
+        	  <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+              <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+              <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+              <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+      	  </div>
+          <div class="row">
+        	  <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+              <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+              <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+              <div class="col-md-3">
+        	    <div class="thumbnail"><img src="../images/Thumbnail_Placeholder.png" alt="Thumbnail Image 1">
+        	      <div class="caption">
+        	        <h3>Thumbnail 1 label</h3>
+        	        <p>Optional content and buttons for Thumbnail #1</p>
+        	        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      	        </div>
+      	      </div>
+      	    </div>
+      	  </div>
+        </div>
+      </section>
+	  <!-- InstanceEndEditable -->
+	  <div class="push"></div>
+  </div>
+<div class="footer">All Rights Reserved &copy; Fishtastic</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="../js/bootstrap.js"></script>
+  </body>
+<!-- InstanceEnd --></html>
