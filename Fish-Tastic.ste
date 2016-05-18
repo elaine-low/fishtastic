@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <site SitePrefVersionMajor="12" SitePrefVersionMinor="0">
-    <localinfo sitename="Fish-Tastic" ftporrdsserver="FALSE" mediaqueryfile="" localroot="D:%5CImportant%5CJCU%20Singapore%5C2016%5CCP1806%5CAssignment%202%5C" assetfolder="D:%5CImportant%5CJCU%20Singapore%5C2016%5CCP1806%5CAssignment%202%5CjQueryAssets%5C" webfontsfolder="D:%5CImportant%5CJCU%20Singapore%5C2016%5CCP1806%5CAssignment%202%5Cwebfonts%5C" edgeassetsfolder="D:%5CImportant%5CJCU%20Singapore%5C2016%5CCP1806%5CAssignment%202%5Canimation_assets%5C" imagefolder="" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
+    <localinfo sitename="Fish-Tastic" ftporrdsserver="FALSE" mediaqueryfile="" localroot="Assignment%202" assetfolder="Assignment%202" webfontsfolder="Assignment%202" edgeassetsfolder="Assignment%202" imagefolder="" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
     <designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
     <sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
     <fileviewcolumns sharecolumns="FALSE">
