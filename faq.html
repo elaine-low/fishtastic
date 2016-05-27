@@ -4,13 +4,11 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- InstanceBeginEditable name="doctitle" -->
 	<title>Fishtastic</title>
-	<!-- InstanceEndEditable -->
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/template-styles.css" rel="stylesheet" type="text/css">
-
+    <script src="js/cart.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -28,18 +26,18 @@
 	      <!-- Brand and toggle get grouped for better mobile display -->
 	      <div class="navbar-header">
 	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="#">Fish-Tastic</a></div>
+            <a class="navbar-brand" href="index.html">Fish-Tastic</a></div>
 	      <!-- Collect the nav links, forms, and other content for toggling -->
 	      <div class="collapse navbar-collapse" id="topFixedNavbar1">
 	        <ul class="nav navbar-nav navbar-right">
-	          <form class="navbar-form navbar-right" role="search">
+	          <form action="https://www.google.com/cse" method="post" name="cse" class="navbar-form navbar-right" id="searchbox_demo" role="search">
 	            <div class="form-group">
-	              <input type="text" class="form-control" placeholder="Search">
+	              <input id="search" type="text" class="form-control" placeholder="Search">
                 </div>
-	            <button type="submit" class="btn btn-default">Submit</button>
+	            <button type="submit" class="btn btn-default" value="Search">Submit</button>
               </form>
-	          <li><a href="#">Catalogue</a></li>
-	          <li><a href="#">Cart</a></li>
+	          <li><a href="Catalogue/Main.html">Catalogue</a></li>
+	          <li><a href="cart.html">Cart</a></li>
 	          <li><a href="home.html#contact-us">Contact Us</a></li>
             </ul>
           </div>
@@ -52,12 +50,12 @@
 	    <li><a href="home.html#about-us">About Us</a></li>
 	    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Animals<b class="caret"></b></a>
 	      <ul class="dropdown-menu">
-	        <li><a href="#">Aquarium</a></li>
-	        <li><a href="#">Pet Shop</a></li>
+	        <li><a href="aquarium.html">Aquarium</a></li>
+	        <li><a href="petshop.html">Pet Shop</a></li>
           </ul>
         </li>
-	    <li><a href="#">Classes</a></li>
-	    <li><a href="#">Catalogue</a></li>
+	    <li><a href="classes.html">Classes</a></li>
+	    <li><a href="Catalogue/Main.html">Catalogue</a></li>
 	    <li><a href="home.html#contact-us">Contact Us</a></li>
       </ul>
 	  <!-- InstanceBeginEditable name="Content" -->
@@ -106,8 +104,7 @@ One of our friendly customer relations officers will get back to you within 1 to
 </div>
               </div>
           </div>
-          
-          
+          <a href='#top'>Back to the Top</a>
           <h2>Self-Pick Up</h2>
           <div class="panel panel-default">
               <div class="panel-heading">
@@ -149,8 +146,7 @@ One of our friendly customer relations officers will get back to you within 1 to
                 <div class="panel-body">You can contact our customer service staff over the phone at +65 6383 0111 from Monday to Sunday between 10am to 9pm or via email at enquires@fishtastic.com</div>
               </div>
           </div>
-          
-          
+          <a href='#top'>Back to the Top</a>
           <h2>How to place an order</h2>
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -232,8 +228,7 @@ One of our friendly customer relations officers will get back to you within 1 to
                 </div>
               </div>
           </div>
-          
-          
+          <a href='#top'>Back to the Top</a>
           <h2>Payment Methods</h2>
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -268,8 +263,7 @@ One of our friendly customer relations officers will get back to you within 1 to
                 <div class="panel-body">Please give us a call at +65 6383 0111 or email us enquires@fishtastic.com if you encounter this issue. If duplicate payments were found by our finance team we will issue a full refund. Please allow 14-28 days for refunds to be fully processed.</div>
               </div>
           </div>
-          
-          
+          <a href='#top'>Back to the Top</a>
           <h2>Returns and Refunds</h2>
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -319,8 +313,7 @@ One of our friendly customer relations officers will get back to you within 1 to
                 <div class="panel-body">We apologize in advance if you have received a defective or incorrect product. Please give us a call at +65 6383 0111 or email us enquires@fishtastic.com and we will take action immediately to resolve this matter.</div>
               </div>
           </div>
-          
-          
+          <a href='#top'>Back to the Top</a>
           <h2>Shipping and Delivery</h2>
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -386,8 +379,7 @@ One of our friendly customer relations officers will get back to you within 1 to
                 <div class="panel-body">Definitely not. Please fill out a return request form on our website. Please call us to verify the items you wish to return and we will then proceed to process a refund for you. Please allow 14-28 days for refunds to be fully processed.</div>
               </div>
           </div>
-
-            
+            <a href='#top'>Back to the Top</a>
             <h2>Veterinary Services</h2>
              <div class="panel panel-default">
               <div class="panel-heading">
@@ -485,10 +477,8 @@ One of our friendly customer relations officers will get back to you within 1 to
               <div id="collapseThree1" class="panel-collapse collapse">
                 <div class="panel-body">We have boarding facilities for dogs within our clinic. We encourage you to bring your pet’s own food. If your pet is on any medication, please bring it with you when you drop your pet off.</div>
               </div>
-              <a href='#top'>Back to the Top</a>
-              
             </div>
-             
+            <a href='#top'>Back to the Top</a> 
             
           </div>
           </div>
