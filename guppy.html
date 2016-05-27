@@ -4,13 +4,11 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- InstanceBeginEditable name="doctitle" -->
 	<title>Fishtastic</title>
-	<!-- InstanceEndEditable -->
 	<!-- Bootstrap -->
-	<link href="../css/bootstrap.css" rel="stylesheet">
-	<link href="../css/template-styles.css" rel="stylesheet" type="text/css">
-
+	<link href="../../css/bootstrap.css" rel="stylesheet">
+	<link href="../../css/template-styles.css" rel="stylesheet" type="text/css">
+    <script src="js/cart.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -30,19 +28,19 @@
 	      <!-- Brand and toggle get grouped for better mobile display -->
 	      <div class="navbar-header">
 	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="#">Fish-Tastic</a></div>
+            <a class="navbar-brand" href="../../index.html">Fish-Tastic</a></div>
 	      <!-- Collect the nav links, forms, and other content for toggling -->
 	      <div class="collapse navbar-collapse" id="topFixedNavbar1">
 	        <ul class="nav navbar-nav navbar-right">
-	          <form class="navbar-form navbar-right" role="search">
+	          <form action="https://www.google.com/cse" method="post" name="cse" class="navbar-form navbar-right" id="searchbox_demo" role="search">
 	            <div class="form-group">
-	              <input type="text" class="form-control" placeholder="Search">
+	              <input id="search" type="text" class="form-control" placeholder="Search">
                 </div>
-	            <button type="submit" class="btn btn-default">Submit</button>
+	            <button type="submit" class="btn btn-default" value="Search">Submit</button>
               </form>
-	          <li><a href="#">Catalogue</a></li>
-	          <li><a href="#">Cart</a></li>
-	          <li><a href="home.html#contact-us">Contact Us</a></li>
+	          <li><a href="../Main.html">Catalogue</a></li>
+	          <li><a href="../../cart.html">Cart</a></li>
+	          <li><a href="../../home.html#contact-us">Contact Us</a></li>
             </ul>
           </div>
 	      <!-- /.navbar-collapse -->
@@ -50,17 +48,17 @@
 	    <!-- /.container-fluid -->
       </nav>
 	  <ul class="nav nav-tabs">
-	    <li><a href="home.html#announcements">Announcements</a></li>
-	    <li><a href="home.html#about-us">About Us</a></li>
+	    <li><a href="../../home.html#announcements">Announcements</a></li>
+	    <li><a href="../../home.html#about-us">About Us</a></li>
 	    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Animals<b class="caret"></b></a>
 	      <ul class="dropdown-menu">
-	        <li><a href="#">Aquarium</a></li>
-	        <li><a href="#">Pet Shop</a></li>
+	        <li><a href="../../aquarium.html">Aquarium</a></li>
+	        <li><a href="../../petshop.html">Pet Shop</a></li>
           </ul>
         </li>
-	    <li><a href="#">Classes</a></li>
-	    <li><a href="#">Catalogue</a></li>
-	    <li><a href="home.html#contact-us">Contact Us</a></li>
+	    <li><a href="../../classes.html">Classes</a></li>
+	    <li><a href="../Main.html">Catalogue</a></li>
+	    <li><a href="../../home.html#contact-us">Contact Us</a></li>
       </ul>
 	  <!-- InstanceBeginEditable name="Content" -->
 	  <section id="content">
@@ -70,41 +68,26 @@
               <div class="item-col">
                 <div id="large-image">
                	  <figure>
-                  	<a name="image-1"></a><img src="../img/New folder/guppy 1.jpg" alt="guppy-1" width="348" class="item">
-                    <img src="../img/New folder/guppy2.jpg" alt="guppy-2" width="348" class="item">
+                  	<a name="image-1"></a>
+                    <img src="../../img/New folder/guppy 1.jpg" alt="guppy-1" width="624" class="item">
+                    <br><a name="image-2"></a>
+                    <img src="../../img/New folder/guppy2.jpg" alt="guppy-2" width="670" class="item">
                   </figure>
                 </div>
                 <div class="caption">
-                  <p><a href="#image-1"><img src="../img/New folder/guppy 1.jpg" alt="guppy-01" width="50" height="50" class="img-thumbnail img-responsive">
-                  <img src="../img/New folder/guppy2.jpg" alt="guppy-02" width="50" height="50" class="img-thumbnail img-responsive"></a></p>
+                  <p><a href="#image-1"><img src="../../img/New folder/guppy 1.jpg" alt="guppy-01" width="624" height="392" class="img-thumbnail img-responsive"></a>
+                  <a href="#image-2"><img src="../../img/New folder/guppy2.jpg" alt="guppy-02" width="670" height="446" class="img-thumbnail img-responsive"></a></p>
               </div>
           </div>
           </div>
             <div class="col-md-8" id="text">
               <section id="item-name"><h1>Guppies</h1></section>
               <section id="item-specs">
-              <h4>Scientific Name:Poecilia reticulata</h4>
+             
               </section>
               <section id="item-description">
-              <h4>Other Common Names</h4>
-              <p>Fancy Guppy, Millions Fish</p>
+              
               <p>Average Size:2.4 inches (5.99 cm)</p>
-              <h4>Distribution</h4>
-              <p>They are widely distributed in Southern and Central America, specifically Venezuela, Barbados, Trinidad, Brazil and the Guyanas. 
-              There is a great deal of color diversity within the species, and it breeds readily and quickly. 
-              There is also a diverse range of variations in the tail fin, including Sword and Double Sword varieties, Roundtail, Pintail, Flagtail, and the ever popular Fantail variety.
-              They occur in a wide variety of habitats, but are usually found in waters that are quiet and densely vegetated. 
-              They can tolerate a wide salinity range and water temperatures ranging from 64-82° F (18-28° C). 
-              These fish often live in shoals in the wild.
-              They feed on detritus with algae and plant matter and also consume zooplankton, diatoms, invertebrates, small insects, and insect larvae.</p>
-              <h4>Characteristics and Compatibility</h4>
-              <p>The Guppy is extremely active but also very friendly. This fish has a very kind and even temperament and is generally peaceful and active.
-              This sociable fish combines well with all other good-natured fish. 
-              Small fishes such as armored catfish (Corydoras), Platy fish, Tetras and other Characins make good tankmates.
-              These active fish form loose schools and are always on the move. Though they are peaceful community fish and easily kept with other livebearers, 
-              they may chase fry and will often nip the fins of the Betta or Siamese Fighting Fish. 
-              The aquarist should avoid combining the Guppy with the Betta, particularly in small quarters, as one of the two or both are bound to get their fins shredded.</p>
-              <p>Suggested Minimum Tank Size:5 gallons</p>
               <h4>Diet and Feeding</h4>
               <p>Since they are omnivorous, the Guppy will generally eat all kinds of fresh, frozen, and flake foods. 
               In the wild, their diet consists of detritus with algae and plant matter, zooplankton, diatoms, invertebrates, small insects, and insect larvae. 
@@ -130,7 +113,7 @@
               </table>
               	<section id="buttons">
                	  <button type="button" class="btn btn-primary">Bookmark</button>
-                  <button type="button" class="btn btn-info">Add to Cart</button>
+                  <a href="../../cart.html"><button type="button" class="btn btn-info">Add to Cart</button></a>
                 </section>
               </form>
               </section>
@@ -169,9 +152,9 @@
   </div>
 <div class="footer">All Rights Reserved &copy; Fishtastic</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../../js/jquery-1.11.3.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<script src="../js/bootstrap.js"></script>
+	<script src="../../js/bootstrap.js"></script>
   </body>
 <!-- InstanceEnd --></html>
